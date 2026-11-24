@@ -6,8 +6,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class BackendEstadioApiApplication {
 
-    public static void main(String[] args) {
-        SpringApplication.run(BackendEstadioApiApplication.class, args);
-    }
+    public static void main(String[] args)
+    {
+        SpringApplication.run(
+                BackendEstadioApiApplication.class,
+                args);
 
+        System.out.println("SISTEMA DE ADMINISTRACION DE ESTADIO INICIADO!");
+    }
 }
