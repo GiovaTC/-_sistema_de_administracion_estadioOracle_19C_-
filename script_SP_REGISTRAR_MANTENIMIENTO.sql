@@ -27,4 +27,13 @@ BEGIN
 END;
 /
 
+BEGIN
+    PR_REGISTRAR_MANTENIMIENTO(
+        1,
+        'Mantenimiento de césped',
+        'Personal técnico'
+    );
+END;
+/
+
 COMMIT;
